@@ -24,7 +24,7 @@ You can fill the cache full of positive and negative results:
 ```
 yes = rfielding canRead dev google
 no = rfielding canRead ceo google
-allow IAM {"name":"rob.fielding@gmail.com", "groups":["dev","rnd", "expires-month":"2018-September"}
+allow IAM {"name":"rob.fielding@gmail.com", "groups":["dev","rnd"], "expires-month":"2018-September"}
 as {"name":"rob.fielding"} read {"label":"topstupid"}
 ```
 
